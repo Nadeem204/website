@@ -29,16 +29,12 @@
     </site>
   </distributionManagement>
          
-  <build>
-       <finalName>some_name</finalName>
-       <pluginManagement>
+   <build>
     <plugins>
-    <plugin>
-         <artifactId>maven-war-plugin</artifactId>
-           <version>3.2.2</version>
-      </plugin>
-      </plugins>
-     </pluginManagement>
+      <plugin>
+        <artifactId>maven-war-plugin</artifactId>
+         <version>3.2.2</version>
+      </plugin> 
 
   <build>
     <plugins>
